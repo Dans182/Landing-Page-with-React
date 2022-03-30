@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar2 from "../component/NavBar2.jsx";
 import Jumbotron from "../component/Jumbotron.jsx";
 import Card from "./cards.jsx";
 import Footer from "./footer.jsx";
@@ -7,6 +8,8 @@ import Footer from "./footer.jsx";
 const Home = () => {
 	return (
 		<div>
+
+			<NavBar2 />
 			<Jumbotron />
       <div className="row justify-content-center">
         <Card />
