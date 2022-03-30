@@ -3,7 +3,7 @@ import Card from "./cards.jsx";
 
 const Home = () => {
 	return (
-		<div className="row d-flex">
+		<div className="row justify-content-center">
 			<Card />
 			<Card />
 			<Card />
