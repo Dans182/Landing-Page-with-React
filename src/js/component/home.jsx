@@ -8,17 +8,16 @@ import Footer from "./footer.jsx";
 const Home = () => {
 	return (
 		<div>
-
 			<NavBar2 />
 			<Jumbotron />
-      <div className="row justify-content-center">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-      <Footer />
-    </div>
+			<div className="row justify-content-center">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
+			<Footer />
+		</div>
 	);
 };
 
