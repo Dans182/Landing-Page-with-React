@@ -1,6 +1,7 @@
 import React from "react";
 import Jumbotron from "../component/Jumbotron.jsx";
 import Card from "./cards.jsx";
+import Footer from "./footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Card />
         <Card />
       </div>
+      <Footer />
     </div>
 	);
 };
