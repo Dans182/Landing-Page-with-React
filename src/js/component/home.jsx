@@ -1,22 +1,20 @@
 import React from "react";
-<<<<<<< Jumbotron
-
 import Jumbotron from "../component/Jumbotron.jsx";
+import Card from "./cards.jsx";
 
 //create your first component
 const Home = () => {
 	return (
 		<div>
 			<Jumbotron />
-		</div>
+      <div className="row justify-content-center">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
 	);
-=======
-import NavBar from "../component/NavBar.jsx";
-
-//create your first component
-const Home = () => {
-	return <div></div>;
->>>>>>> develop
 };
 
 export default Home;
