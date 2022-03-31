@@ -15,8 +15,8 @@ const Card = () => {
 						Some quick example text to build on the card title and
 						make up the bulk of the card's content.
 					</p>
-					<div class="d-flex justify-content-center">
-						<button type="button" class=" btn btn-primary ">
+					<div className="d-flex justify-content-center">
+						<button type="button" className=" btn btn-primary ">
 							Go somewhere
 						</button>
 					</div>
