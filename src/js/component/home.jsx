@@ -10,11 +10,13 @@ const Home = () => {
 		<div>
 			<NavBar2 />
 			<Jumbotron />
-			<div className="row justify-content-center">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+			<div className="container">
+				<div className="row justify-content-center">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
 			<Footer />
 		</div>
