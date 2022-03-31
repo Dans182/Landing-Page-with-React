@@ -7,7 +7,7 @@ const Card = () => {
 				<img
 					src="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
 					className="card-img-top"
-					alt="..."
+					alt="Fotografía por defecto"
 				/>
 				<div className="card-body text-center">
 					<h5 className="card-title">Card title</h5>
