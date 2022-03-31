@@ -2,22 +2,26 @@ import React from "react";
 
 const Card = () => {
 	return (
-		<div className="col-2">
-			<div className="card">
+		<div className="col-2 m-2">
+			<div className="card shadow-sm">
 				<img
-					src="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png"
+					src="https://www.thinkarcoa.com/wp-content/uploads/1mX_pxODIHNKDgLJ2yMH0vA.jpeg"
 					className="card-img-top"
 					alt="..."
 				/>
-				<div className="card-body text-center">
-					<h5 className="card-title">Card title</h5>
+
+				<div className="card-body">
 					<p className="card-text">
-						Some quick example text to build on the card title and
-						make up the bulk of the card's content.
+						This is a wider card with supporting text below as a
+						natural lead-in to additional content. This content is a
+						little bit longer.
 					</p>
-					<a href="#" className="btn btn-primary">
-						Go somewhere
-					</a>
+
+					<div class="d-flex justify-content-center">
+						<button type="button" class=" btn btn-warning ">
+							Find out more!
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
